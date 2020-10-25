@@ -1,0 +1,3 @@
+MONGO = "MONGO URI"
+
+PORT = 3000

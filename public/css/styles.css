@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  color: #19ff00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hack";
+}
+
+.shrt h1 span {
+  background-color: #19ff00;
+  color: black;
+  border-radius: 0.25rem;
+}
+.shrt form .form-group input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.shrt form .form-group input:active, .shrt form .form-group input:hover, .shrt form .form-group input:focus {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #19ff00;
+  color: white;
+  box-shadow: none;
+}
+.shrt form .form-group small {
+  color: white;
+}
+.shrt form button {
+  background-color: #19ff00;
+  color: black;
+  border-color: transparent;
+}
+.shrt form button:active, .shrt form button:hover, .shrt form button:focus, .shrt form button:visited {
+  background-color: black;
+  color: #19ff00;
+  border-color: transparent;
+  box-shadow: none;
+}

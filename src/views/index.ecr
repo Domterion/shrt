@@ -1,0 +1,38 @@
+<div class="container text-center shrt">
+    <div id="status"></div>
+    <h1>
+        <span>Shrt</span>
+    </h1>
+    <div>
+        <form id="add">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="slugInput">Slug</label>
+                        <input type="text" class="form-control" id="slugInput" name="slug" aria-describedby="slugHelp"
+                            aria-required="true">
+                        <small id="slugHelp" class="form-text">Can be any A-Z, 1-9, _ and -. No spaces. </small>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="urlInput">Url</label>
+                        <input type="text" class="form-control" id="urlInput" name="url" aria-describedby="urlHelp">
+                        <small id="urlHelp" class="form-text">The url you want to redirect to. Must include the
+                            protocol (http://, https://)</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <button type="submit" class="btn">Shrtn!</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/index.js">
+</script>

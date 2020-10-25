@@ -1,0 +1,78 @@
+$background: black;
+$text: #19ff00;
+$accent: white;
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: $background;
+    color: $text;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Hack';
+}
+
+.shrt {
+    h1 {
+        span {
+            background-color: $text;
+            color: $background;
+            border-radius: .25rem;
+        }
+    }
+
+
+    form {
+        .form-group {
+            input {
+                border: 0;
+                outline: 0;
+                background: transparent;
+                border-bottom: 1px solid $accent;
+
+                color: $accent;
+
+                &:active,
+                &:hover,
+                &:focus {
+                    border: 0;
+                    outline: 0;
+                    background: transparent;
+                    border-bottom: 1px solid $text;
+
+                    color: $accent;
+
+                    box-shadow: none;
+                }
+
+            }
+
+            small {
+                color: $accent;
+            }
+        }
+
+        button {
+            background-color: $text;
+            color: $background;
+            border-color: transparent;
+
+            &:active,
+            &:hover,
+            &:focus,
+            &:visited {
+                background-color: $background;
+                color: $text;
+                border-color: transparent;
+                box-shadow: none;
+            }
+        }
+    }
+}

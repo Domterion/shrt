@@ -1,0 +1,25 @@
+name: shrt
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  shrt:
+    main: src/shrt.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  spec-kemal:
+    github: kemalcr/spec-kemal
+  mongo:
+    github: kimvex/mongodb-crystal
+    branch: master
+  nanoid:
+    github: mamantoha/nanoid.cr
+
+crystal: 0.35.1
+
+license: MIT
